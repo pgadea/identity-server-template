@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="autofac" Version="4.9.4" />
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1352" />
+    <PackageReference Include="GraphQL.Authorization" Version="3.0.39-preview-39" />
+    <PackageReference Include="humanizer.core" Version="2.7.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="3.1.0" />
+    <PackageReference Include="microsoft.extensions.configuration.environmentvariables" Version="3.1.0" />
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="3.1.0" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FullStackJobs.GraphQL.Common\FullStackJobs.GraphQL.Common.csproj" />
+    <ProjectReference Include="..\FullStackJobs.GraphQL.Core\FullStackJobs.GraphQL.Core.csproj" />
+  </ItemGroup>
+
+</Project>

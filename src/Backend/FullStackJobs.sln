@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FullStackJobs.AuthServer", "FullStackJobs.AuthServer", "{4AD61EC0-54CA-4FDC-A10C-BE8415EEDE65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.AuthServer", "FullStackJobs.AuthServer\FullStackJobs.AuthServer\FullStackJobs.AuthServer.csproj", "{084881A5-13D6-4189-B2D2-5B7088445DF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.AuthServer.Infrastructure", "FullStackJobs.AuthServer\FullStackJobs.AuthServer.Infrastructure\FullStackJobs.AuthServer.Infrastructure.csproj", "{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6BBB9578-A245-4B9D-99A2-3EF7F7D03FDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.AuthServer.IntegrationTests", "Tests\FullStackJobs.AuthServer.IntegrationTests\FullStackJobs.AuthServer.IntegrationTests.csproj", "{F29C9C9D-B34F-430B-8565-0B9CC6169E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FullStackJobs.GraphQL", "FullStackJobs.GraphQL", "{D3E122B4-9408-4C85-B930-80238BB1FEC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.GraphQL.Core", "FullStackJobs.GraphQL\FullStackJobs.GraphQL.Core\FullStackJobs.GraphQL.Core.csproj", "{A5930243-E33F-4637-B556-63DEADB321AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.GraphQL.Infrastructure", "FullStackJobs.GraphQL\FullStackJobs.GraphQL.Infrastructure\FullStackJobs.GraphQL.Infrastructure.csproj", "{2032076E-C2EF-426B-85E6-EDF9CC1D4715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.GraphQL.Common", "FullStackJobs.GraphQL\FullStackJobs.GraphQL.Common\FullStackJobs.GraphQL.Common.csproj", "{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.GraphQL.Api", "FullStackJobs.GraphQL\FullStackJobs.GraphQL.Api\FullStackJobs.GraphQL.Api.csproj", "{B072F535-C32B-4F14-AE22-2EC5C3248E2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackJobs.GraphQL.Api.IntegrationTests", "Tests\FullStackJobs.GraphQL.Api.IntegrationTests\FullStackJobs.GraphQL.Api.IntegrationTests.csproj", "{0DE7CE42-65E7-4BB4-AC21-9B28E7633822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.Support", "Tests\Testing.Support\Testing.Support.csproj", "{9BD62CF8-D322-4FBA-9DDB-78E06F634408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{084881A5-13D6-4189-B2D2-5B7088445DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084881A5-13D6-4189-B2D2-5B7088445DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084881A5-13D6-4189-B2D2-5B7088445DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084881A5-13D6-4189-B2D2-5B7088445DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29C9C9D-B34F-430B-8565-0B9CC6169E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29C9C9D-B34F-430B-8565-0B9CC6169E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29C9C9D-B34F-430B-8565-0B9CC6169E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29C9C9D-B34F-430B-8565-0B9CC6169E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5930243-E33F-4637-B556-63DEADB321AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5930243-E33F-4637-B556-63DEADB321AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5930243-E33F-4637-B556-63DEADB321AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5930243-E33F-4637-B556-63DEADB321AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2032076E-C2EF-426B-85E6-EDF9CC1D4715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2032076E-C2EF-426B-85E6-EDF9CC1D4715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2032076E-C2EF-426B-85E6-EDF9CC1D4715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2032076E-C2EF-426B-85E6-EDF9CC1D4715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B072F535-C32B-4F14-AE22-2EC5C3248E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B072F535-C32B-4F14-AE22-2EC5C3248E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B072F535-C32B-4F14-AE22-2EC5C3248E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B072F535-C32B-4F14-AE22-2EC5C3248E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE7CE42-65E7-4BB4-AC21-9B28E7633822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE7CE42-65E7-4BB4-AC21-9B28E7633822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE7CE42-65E7-4BB4-AC21-9B28E7633822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE7CE42-65E7-4BB4-AC21-9B28E7633822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD62CF8-D322-4FBA-9DDB-78E06F634408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD62CF8-D322-4FBA-9DDB-78E06F634408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD62CF8-D322-4FBA-9DDB-78E06F634408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD62CF8-D322-4FBA-9DDB-78E06F634408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{084881A5-13D6-4189-B2D2-5B7088445DF0} = {4AD61EC0-54CA-4FDC-A10C-BE8415EEDE65}
+		{47AE068F-C016-4AF0-9B95-BB17A1A6ECBC} = {4AD61EC0-54CA-4FDC-A10C-BE8415EEDE65}
+		{F29C9C9D-B34F-430B-8565-0B9CC6169E21} = {6BBB9578-A245-4B9D-99A2-3EF7F7D03FDD}
+		{A5930243-E33F-4637-B556-63DEADB321AD} = {D3E122B4-9408-4C85-B930-80238BB1FEC4}
+		{2032076E-C2EF-426B-85E6-EDF9CC1D4715} = {D3E122B4-9408-4C85-B930-80238BB1FEC4}
+		{99737FBA-3797-4A84-A8E0-0C5C69BB2EBE} = {D3E122B4-9408-4C85-B930-80238BB1FEC4}
+		{B072F535-C32B-4F14-AE22-2EC5C3248E2D} = {D3E122B4-9408-4C85-B930-80238BB1FEC4}
+		{0DE7CE42-65E7-4BB4-AC21-9B28E7633822} = {6BBB9578-A245-4B9D-99A2-3EF7F7D03FDD}
+		{9BD62CF8-D322-4FBA-9DDB-78E06F634408} = {6BBB9578-A245-4B9D-99A2-3EF7F7D03FDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6B6E58-100E-4F42-A015-9D70BC0F256F}
+	EndGlobalSection
+EndGlobal
